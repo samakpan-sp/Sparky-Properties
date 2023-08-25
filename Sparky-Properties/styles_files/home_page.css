@@ -1,0 +1,119 @@
+/* Google font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-section {
+    width: 100%;
+    height: 100vh;
+    background-color: #dcd7dc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper {
+    width: 80%;
+    height: fit-content;
+}
+
+.swiper-wrapper img {
+    width: 100%;
+    height: 100vh
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next {
+   color: #fff;
+   margin: 0 20px 0 20px;
+}
+
+.swiper .swiper-pagination-bullet-active {
+    background-color: #d415a7;
+}
+
+header {
+    display: flex;
+    background-color:#008000;
+    padding: 15px;
+    margin-bottom: 0px;
+    border-bottom: 2px solid #d415a7;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+header.navigaton {
+    height: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.navigaton a {
+    margin-bottom: 0;
+    padding: 10px;
+    /* border-style: none; */
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4rem;
+    color: #f5f0f4;
+}
+
+.navigaton .active {
+    background-color: #dbd7dc;
+}
+
+.navigaton a:hover {
+   /* color: #d644d3 ; */
+   border-bottom: 2px solid #d644d3;
+} 
+
+.swiper-wrapper p {
+    font-size: 2rem;
+    color: #d415a7;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 57%;
+    left: 2%;
+    z-index: 1;
+}
+.hr {
+    margin-top: 0px;
+    border-width: 1rem;
+    border-color: #056f05;
+}
+
+#featured-properties {
+    /* width: 80%;
+    height: 800px; */
+    background-color: #008000;
+    border: 2px dotted gold;
+}
+
+#featured-properties .properties-list {
+    display: flex;
+    max-width: 80%;
+    height: 100vh;
+  
+}
+
+#featured-properties .properties-list .list {
+    width: 300px;
+    height: 200px;
+
+}
+
+h3 {
+    font-size: 2.1rem;
+    text-transform: uppercase;
+    color: #008000;
+    text-align: center;
+    text-decoration: underline;
+}
+.social-handles a i{
+    text-transform: lowercase;
+    padding-left: 10px;
+}
+
